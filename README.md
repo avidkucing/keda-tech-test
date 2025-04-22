@@ -26,6 +26,7 @@ Hasil test akan ditampilkan di terminal, dan akan menunjukkan apakah semua fungs
 ## Test 2
 
 Ini adalah proyek [Next.js](https://nextjs.org) yang dibuat menggunakan [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Selain itu, proyek ini juga menggunakan **SASS** untuk styling yang lebih fleksibel dan terstruktur.
 
 Untuk memulai server development, jalankan perintah berikut:
 
@@ -34,10 +35,6 @@ npm run dev
 ```
 
 Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
-
-Proyek ini menggunakan [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) untuk mengoptimalkan dan memuat font [Geist](https://vercel.com/font) secara otomatis — font baru dari Vercel.
-
-Selain itu, proyek ini juga menggunakan **SASS** untuk styling yang lebih fleksibel dan terstruktur.
 
 ### Kenapa Menggunakan Next.js?
 
