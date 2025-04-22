@@ -1,0 +1,52 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dashboard frame -->
+  <rect x="50" y="50" width="500" height="300" rx="10" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Sidebar -->
+  <rect x="50" y="50" width="100" height="300" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="100" cy="90" r="20" fill="#0BC5EA"/>
+  <rect x="70" y="130" width="60" height="10" rx="2" fill="#CBD5E0"/>
+  <rect x="70" y="150" width="60" height="10" rx="2" fill="#CBD5E0"/>
+  <rect x="70" y="170" width="60" height="10" rx="2" fill="#CBD5E0"/>
+  <rect x="70" y="190" width="60" height="10" rx="2" fill="#CBD5E0"/>
+  <rect x="70" y="210" width="60" height="10" rx="2" fill="#CBD5E0"/>
+  
+  <!-- Header -->
+  <rect x="150" y="50" width="400" height="50" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="170" y="70" width="150" height="10" rx="2" fill="#CBD5E0"/>
+  <circle cx="520" cy="75" r="15" fill="#0BC5EA"/>
+  
+  <!-- Main content -->
+  <!-- Card 1 -->
+  <rect x="170" y="120" width="150" height="100" rx="5" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="185" y="135" width="120" height="10" rx="2" fill="#CBD5E0"/>
+  <rect x="185" y="155" width="80" height="40" rx="2" fill="#0BC5EA"/>
+  
+  <!-- Card 2 -->
+  <rect x="340" y="120" width="150" height="100" rx="5" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="355" y="135" width="120" height="10" rx="2" fill="#CBD5E0"/>
+  <circle cx="390" cy="175" r="20" fill="#0BC5EA"/>
+  <path d="M390 155 L410 175 L390 195 L370 175 Z" fill="#38B2AC"/>
+  
+  <!-- Chart -->
+  <rect x="170" y="240" width="320" height="90" rx="5" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="185" y="255" width="80" height="10" rx="2" fill="#CBD5E0"/>
+  
+  <!-- Chart lines -->
+  <line x1="185" y1="310" x2="475" y2="310" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="185" y1="290" x2="475" y2="290" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="185" y1="270" x2="475" y2="270" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- Chart data -->
+  <path d="M185 300 L215 290 L245 295 L275 280 L305 270 L335 285 L365 275 L395 265 L425 280 L455 290" stroke="#0BC5EA" stroke-width="2" fill="none"/>
+  <circle cx="185" cy="300" r="3" fill="#0BC5EA"/>
+  <circle cx="215" cy="290" r="3" fill="#0BC5EA"/>
+  <circle cx="245" cy="295" r="3" fill="#0BC5EA"/>
+  <circle cx="275" cy="280" r="3" fill="#0BC5EA"/>
+  <circle cx="305" cy="270" r="3" fill="#0BC5EA"/>
+  <circle cx="335" cy="285" r="3" fill="#0BC5EA"/>
+  <circle cx="365" cy="275" r="3" fill="#0BC5EA"/>
+  <circle cx="395" cy="265" r="3" fill="#0BC5EA"/>
+  <circle cx="425" cy="280" r="3" fill="#0BC5EA"/>
+  <circle cx="455" cy="290" r="3" fill="#0BC5EA"/>
+</svg>

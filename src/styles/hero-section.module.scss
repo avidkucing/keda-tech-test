@@ -1,0 +1,106 @@
+@import 'variables';
+@import 'mixins';
+
+.heroSection {
+  position: relative;
+  overflow: visible;
+  padding: $spacing-4xl 0;
+}
+
+.leftBlob {
+  position: absolute;
+  top: -700;
+  left: -200;
+  width: 50%;
+  height: 100%;
+}
+
+.rightBlob {
+  position: absolute;
+  bottom: -100;
+  right: -200;
+  width: 50%;
+  height: 100%;
+  rotate: 45deg;
+}
+
+.blobImage {
+  object-fit: cover;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 10;
+  @include section-container;
+}
+
+.heroText {
+  max-width: 36rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: $spacing-3xl;
+}
+
+.heroTitle {
+  font-size: $font-size-5xl;
+  font-weight: $font-weight-bold;
+  margin-bottom: $spacing-lg;
+  
+  @include mobile {
+    font-size: $font-size-4xl;
+  }
+}
+
+.heroDescription {
+  font-size: $font-size-lg;
+  color: $text-light;
+  margin-bottom: $spacing-xl;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  gap: $spacing-md;
+  
+  @include mobile {
+    flex-direction: column;
+    width: 100%;
+    max-width: 16rem;
+    margin: 0 auto;
+  }
+}
+
+.primaryButton {
+  @include button-primary;
+}
+
+.secondaryButton {
+  @include button-secondary;
+}
+
+.heroImage {
+  display: flex;
+  justify-content: left;
+  margin-top: $spacing-xl;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 25rem;
+}
+
+.illustration {
+  margin: 0 auto;
+}
+
+.testimonial {
+  margin-top: $spacing-xl;
+  text-align: left;
+}
+
+.quote {
+  font-style: italic;
+  font-size: $font-size-lg;
+  color: $text-light;
+}

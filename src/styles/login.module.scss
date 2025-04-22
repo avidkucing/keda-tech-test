@@ -1,0 +1,124 @@
+@import 'variables';
+@import 'mixins';
+
+.loginButton {
+  @include button-base;
+  background-color: transparent;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  
+  &:hover {
+    background-color: rgba($primary-color, 0.1);
+  }
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: $z-index-modal;
+  padding: $spacing-md;
+}
+
+.modalContent {
+  position: relative;
+  background-color: white;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-xl;
+  width: 100%;
+  max-width: 28rem;
+  padding: $spacing-xl;
+}
+
+.modalHeader {
+  margin-bottom: $spacing-xl;
+}
+
+.modalTitle {
+  font-size: $font-size-2xl;
+  font-weight: $font-weight-bold;
+}
+
+.modalDescription {
+  color: $text-light;
+  margin-top: $spacing-xs;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.formGroup {
+  margin-bottom: $spacing-md;
+}
+
+.formLabel {
+  @include form-label;
+}
+
+.formInput {
+  @include form-input;
+}
+
+.passwordHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-sm;
+}
+
+.forgotPassword {
+  font-size: $font-size-sm;
+  color: $primary-color;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.submitButton {
+  @include button-primary;
+  width: 100%;
+  margin-top: $spacing-md;
+}
+
+.signupPrompt {
+  text-align: center;
+  margin-top: $spacing-lg;
+  font-size: $font-size-sm;
+}
+
+.promptText {
+  color: $text-light;
+}
+
+.signupLink {
+  color: $primary-color;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: $spacing-md;
+  right: $spacing-md;
+  background: none;
+  border: none;
+  color: $gray;
+  padding: $spacing-xs;
+  cursor: pointer;
+  
+  &:hover {
+    color: $dark-gray;
+  }
+}

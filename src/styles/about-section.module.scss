@@ -1,0 +1,89 @@
+@import 'variables';
+@import 'mixins';
+
+.aboutSection {
+  @include section-padding;
+  background-color: $light-gray;
+}
+
+.container {
+  @include section-container;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: $spacing-4xl;
+}
+
+.sectionTitle {
+  @include section-title;
+}
+
+.divider {
+  @include section-divider;
+}
+
+.aboutContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $spacing-3xl;
+  align-items: center;
+  
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aboutText {
+  @include mobile {
+    order: 2;
+  }
+}
+
+.aboutTitle {
+  font-size: $font-size-2xl;
+  font-weight: $font-weight-bold;
+  margin-bottom: $spacing-md;
+}
+
+.aboutDescription {
+  color: $text-light;
+  margin-bottom: $spacing-lg;
+  line-height: 1.6;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  
+  .checkIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: $primary-color;
+    margin-right: $spacing-sm;
+    flex-shrink: 0;
+  }
+}
+
+.aboutImage {
+  position: relative;
+  height: 20rem;
+  
+  @include mobile {
+    order: 1;
+    height: 16rem;
+  }
+}
+
+.dashboardImage {
+  object-fit: contain;
+}
