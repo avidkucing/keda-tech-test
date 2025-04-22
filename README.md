@@ -1,3 +1,30 @@
+
+### KeDA Tech Test
+
+## Test 1
+
+# Jawaban Soal
+
+Jawaban untuk 3 soal yang telah diberikan terdapat di `scr/test1.js`
+
+# Menjalankan Unit Test
+
+Proyek ini menggunakan **Jest** untuk melakukan unit test. Ikuti langkah-langkah di bawah ini untuk menjalankan test:
+
+1. Instal dependensi terlebih dahulu:
+```bash
+npm install
+```
+
+2. Jalankan semua test dengan perintah:
+```bash
+npm test
+```
+
+Hasil test akan ditampilkan di terminal, dan akan menunjukkan apakah semua fungsi bekerja dengan benar atau tidak.
+
+## Test 2
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
