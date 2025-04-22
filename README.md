@@ -1,13 +1,13 @@
 
-### KeDA Tech Test
+# KeDA Tech Test
 
 ## Test 1
 
-# Jawaban Soal
+### Jawaban Soal
 
 Jawaban untuk 3 soal yang telah diberikan terdapat di `scr/test1.js`
 
-# Menjalankan Unit Test
+### Menjalankan Unit Test
 
 Proyek ini menggunakan **Jest** untuk melakukan unit test. Ikuti langkah-langkah di bawah ini untuk menjalankan test:
 
@@ -39,7 +39,7 @@ Proyek ini menggunakan [`next/font`](https://nextjs.org/docs/app/building-your-a
 
 Selain itu, proyek ini juga menggunakan **SASS** untuk styling yang lebih fleksibel dan terstruktur.
 
-# Kenapa Menggunakan Next.js?
+### Kenapa Menggunakan Next.js?
 
 - Pilihan rendering lebih fleksibel: Next.js mendukung Server-Side Rendering (SSR), Static Site Generation (SSG), dan Incremental Static Regeneration (ISR) — memberi kita kontrol penuh atas performa dan SEO.
 
@@ -51,7 +51,7 @@ Selain itu, proyek ini juga menggunakan **SASS** untuk styling yang lebih fleksi
 
 - Development lebih mudah: Hot reload, integrasi TypeScript, built-in image optimization, dan dokumentasi yang lengkap membuat proses development jadi menyenangkan.
 
-# Kenapa Menggunakan SASS?
+### Kenapa Menggunakan SASS?
 
 - Nesting lebih rapi: SASS memungkinkan nesting selector seperti struktur HTML, membuat CSS lebih terstruktur dan mudah dibaca.
 
